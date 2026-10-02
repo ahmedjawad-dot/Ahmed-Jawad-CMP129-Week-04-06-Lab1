@@ -39,7 +39,7 @@ public class DriversLicenseExam {
         System.out.print("Questions answered incorrectly: ");
         for(int k=0; k< c_answers.length; k++){
             if (answers[k]!=c_answers[k])
-                System.out.print(k);
+                System.out.print(k + " ");
         }
         input.close();
     }
